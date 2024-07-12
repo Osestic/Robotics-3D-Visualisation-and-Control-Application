@@ -6,21 +6,14 @@
 ## Description
 Throughout my Robotics course, MENG 4900, all my major Home Work was tied to this larger project of developing a Robotics 3D Visualisation and Control Application. The coming together of Robotics theory, Mechanical engineering design and programming birthed this awesome project. I did not achieve this alone but with my partner, [Ziyuan Zhao ](https://www.linkedin.com/in/ziyuan-zhao-89195326b/).
 
-Through the mathematics, physics and engineering theory of Robotics, the simulation of the Interbotix Robotic Arm was brought to life using MATLAB and Appdesigner after being measured by hand and designed with SolidWorks.
-
+Through the mathematics, physics and engineering theory of Robotics, the simulation of the Interbotix Robotic Arm was brought to life using MATLAB, ROS and Appdesigner after being measured by hand and designed with SolidWorks. You can see and interact with the 3D model of Interbotix Robotic arm on my website:[oriekaose.com/design-portfolio/#interbotix](https://oriekaose.com/design-portfolio/#interbotix) 
 
 ## Set up
-1.	Unscrew the plastic claw piece from the from Widowx Arm.
-2.	Screw the HIWONDER BIONIC Hand onto it.
-3.	Connect the pins to be configured as pulse-width modulation pins to hand.
-4.	Connect the pins to be configured for parallel communication to pins on the Arbotix -M 
-Arduino.
-
-### Note:
-1.	The codes to be mentioned below contain the specific pins configured for steps 3 and 4 above. Your own pins can be configured as well.
-2.	Employ good cable/wire management to ensure proper connections and to easily debug issues which often stem from disconnections. Breadboards are quite useful, and one was used for this project.
-3.	When the motors fault out due to exceeding the limits of their possible positions or as safety measures to protect users, they flash red and are disabled. Unplug the power cord and plug back in to rest them. 
-4.	Unplug the power cord to relax the motors or run ```PyPose.py``` , to be mentioned below.
+1. Obtain a LINUX PC.
+2.	Install MATLAB-ROS Interface [docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros1/software_setup.html].(https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros1/software_setup.html).
+3.	Install the project's contents in ```interbotix_ws\src in the MATLAB-ROS interface installation```.
+4. Connect the Interbotix Robot to the PC.
+5.	Run ```HW8_update.mlapp``` from "interbotix_ws\srcn\interbotix_ros_manipulators\interbotix_ros_xsarms\examples\matlab_demos\HW7\" in the location of your MATALB-ROS interface installation
 
 ## Programmed With
 
