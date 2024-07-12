@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?><w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"><w:body><w:p><w:pPr><w:pStyle w:val="code"/></w:pPr><w:r><w:t><![CDATA[classdef HW4_Arm_07 < matlab.apps.AppBase
+
+    % Properties that correspond to app components
+    properties (Access = public)
+        UIFigure           matlab.ui.Figure
+        d6EditField        matlab.ui.control.NumericEditField
+        d6EditFieldLabel   matlab.ui.control.Label
+        th5EditField       matlab.ui.control.NumericEditField
+        th5EditFieldLabel  matlab.ui.control.Label
+        th4EditField       matlab.ui.control.NumericEditField
+        th4EditFieldLabel  matlab.ui.control.Label
+        th3EditField       matlab.ui.control.NumericEditField
+        th3EditFieldLabel  matlab.ui.control.Label
+        th2EditField       matlab.ui.control.NumericEditField
+        th2EditFieldLabel  matlab.ui.control.Label
+        th1EditField       matlab.ui.control.NumericEditField
+        th1EditFieldLabel  matlab.ui.control.Label
+        d6Slider           matlab.ui.control.Slider
+        d6SliderLabel      matlab.ui.control.Label
+        th5Slider          matlab.ui.control.Slider
+        th5SliderLabel     matlab.ui.control.Label
+        th4Slider          matlab.ui.control.Slider
+        th4SliderLabel     matlab.ui.control.Label
+        th2Slider          matlab.ui.control.Slider
+        th2SliderLabel     matlab.ui.control.Label
+        th3Slider          matlab.ui.control.Slider
+        th3SliderLabel     matlab.ui.control.Label
+        th1Slider          matlab.ui.control.Slider
+        th1SliderLabel     matlab.ui.control.Label
+        HomeButton         matlab.ui.control.Button
+        InitialiseButton   matlab.ui.control.Button
+    end
+
+    
+    properties (Access = private)
+        Property % Description
+        Fb;
+        Vb;
+
+        F1;
+        V1;
+
+        F2;
+        V2;
+
+        F3;
+        V3;
+
+        F4;
+        V4;
+
+        F5;
+        V5;
+
+        F6;
+        V6;
+
+        F7;
+        V7;
+
+
+        th1 = 0;
+        th2 = 0;
+        th3 = 0;
+        th4 = 0;
+        th5 = 0;
+        d6 = 0;
+       
+
+    end
+    
+    methods (Access = private)
+        
+        function [] = drawRobot(app)
+            
+            cla
+            plot3(0,0,0,'r*','MarkerSize',10)
+
+            %Link base
+            Tba = eye(4);
+            pb = Tba*app.Vb;
+
+            fcs =['g'];
+            patch('faces',app.Fb, 'vertices',pb(1:3,:)','facecolor',fcs)
+
+            %Link1
+            T1A = eye(4);
+            Trot = eye(4);
+           
+            Trot(1:3,1:3) = rotz(app.th1);
+            T1A = T1A*Trot;
+
+            p1 = T1A*app.V1;
+            fcs =['r'];
+            patch('faces',app.F1, 'vertices',p1(1:3,:)','facecolor',fcs)
+
+             %Link2 
+             T21 = eye(4);
+             Trot = eye(4);
+             Trot(1:3,4) = [0 0 26.73]';
+             
+             Trot(1:3,1:3) = rotx(app.th2);
+             T21 = T21 * Trot;
+
+             p2 = T1A*T21*app.V2;
+             fcs =['c'];
+             patch('faces',app.F2, 'vertices',p2(1:3,:)','facecolor',fcs)
+
+             %Link3  
+             T32 = eye(4);
+             Trot = eye(4);
+             Trot(1:3,4) = [0.6 -190.47  25.2]';
+           
+             Trot(1:3,1:3) = rotx(app.th3);
+             T32 = T32*Trot;
+
+             p3 = T1A*T21*T32*app.V3;
+             fcs =['b']; 
+             patch('faces',app.F3, 'vertices',p3(1:3,:)','facecolor',fcs)
+
+
+             %Link4  
+             T43 = eye(4);
+             Trot = eye(4);
+             Trot(1:3,4) = [0.28 195.65  -4]';
+           
+             Trot(1:3,1:3) = rotx(app.th4);
+             T43 = T43*Trot;
+
+             p4 = T1A*T21*T32*T43*app.V4;
+             fcs =['y']; 
+             patch('faces',app.F4, 'vertices',p4(1:3,:)','facecolor',fcs)
+
+             %Link5 
+             T54 = eye(4);
+             Trot = eye(4);
+             Trot(1:3,4) = [0 59  -30.5]';
+           
+             Trot(1:3,1:3) =  rotx(-20.5) * roty(app.th5);
+             T54 = T54*Trot;
+
+             p5 = T1A*T21*T32*T43*T54*app.V5;
+             fcs =['m']; 
+             patch('faces',app.F5, 'vertices',p5(1:3,:)','facecolor',fcs)
+
+             %Link6
+             T65 = eye(4);
+             Trot = eye(4);
+             Trot(1:3,4) = [(app.d6 - 19.75)  64.07  3]';
+           
+             T65 = T65*Trot;
+
+             p6 = T1A*T21*T32*T43*T54*T65*app.V6;
+             fcs =[0.85 0.325 0.098]; 
+             patch('faces',app.F6, 'vertices',p6(1:3,:)','facecolor',fcs)
+
+             %Link7
+             T76 = eye(4);
+             Trot = eye(4);
+             Trot(1:3,4) = [(-app.d6 + 19.75)  64.07 3]';
+           
+             T76 = T76*Trot;
+
+             p7 = T1A*T21*T32*T43*T54*T76*app.V7;
+             fcs =[0.85 0.325 0.098]; 
+             patch('faces',app.F7, 'vertices',p7(1:3,:)','facecolor',fcs)
+             
+             
+        end
+    end
+    
+
+    % Callbacks that handle component events
+    methods (Access = private)
+
+        % Button pushed function: InitialiseButton
+        function InitialiseButtonPushed(app, event)
+            close all
+            plot3(0,0,0)
+            s = 400;
+            axis ([-s s -s s -s s ])
+            grid on
+            xlabel('x')
+            ylabel('y')
+            zlabel('z')
+            axis square
+            hold on
+            cla
+
+            [app.Fb, app.Vb] = stlread_mod("Base.stl");
+            [app.F1, app.V1] = stlread_mod("Link1.STL");
+            [app.F2, app.V2] = stlread_mod("Link2.STL");
+            [app.F3, app.V3] = stlread_mod("Link3.STL");
+            [app.F4, app.V4] = stlread_mod("Link4.STL");
+            [app.F5, app.V5] = stlread_mod("Link5.stl");
+            [app.F6, app.V6] = stlread_mod("Link6.STL");
+            [app.F7, app.V7] = stlread_mod("Link7.STL");
+          
+          
+
+            app.drawRobot();
+            
+            app.InitialiseButton.Visible="off";
+            app.HomeButton.Visible="on";
+
+            app.th1Slider.Visible="on";
+            app.th1SliderLabel.Visible="on";
+
+            app.th2Slider.Visible="on";
+            app.th2SliderLabel.Visible="on";
+
+            app.th3Slider.Visible="on";
+            app.th3SliderLabel.Visible="on";
+
+            app.th4SliderLabel.Visible="on";
+            app.th4Slider.Visible="on";
+
+            app.th5SliderLabel.Visible="on";
+            app.th5Slider.Visible="on";
+
+            app.d6SliderLabel.Visible="on";
+            app.d6Slider.Visible="on";
+
+            app.th1EditFieldLabel.Visible="on";
+            app.th1EditField.Visible ="on";
+        
+            app.th2EditFieldLabel.Visible="on";
+            app.th2EditField.Visible="on";
+
+            app.th3EditFieldLabel.Visible="on";
+            app.th3EditField.Visible="on";
+
+            app.th4EditFieldLabel.Visible="on";
+            app.th4EditField.Visible="on";
+
+            app.th5EditFieldLabel.Visible="on";
+            app.th5EditField.Visible="on";
+
+            app.d6EditFieldLabel.Visible="on";
+            app.d6EditField.Visible="on";
+
+        end
+
+        % Button pushed function: HomeButton
+        function HomeButtonPushed(app, event)
+            app.th1 = 0;
+            app.th2 = 0;
+            app.th3 = 0;
+            app.th4 = 0;
+            app.th5= 0;
+            app.d6 = 0;
+
+            app.th1Slider.Value = 0;
+            app.th2Slider.Value = 0;
+            app.th3Slider.Value = 0;
+            app.th4Slider.Value = 0;
+            app.th5Slider.Value = 0;
+            app.d6Slider.Value = 0;
+
+            app.th1EditField.Value = 0;
+            app.th2EditField.Value = 0;
+            app.th3EditField.Value = 0;
+            app.th4EditField.Value = 0;
+            app.th5EditField.Value = 0;
+            app.d6EditField.Value = 0;
+
+            app.drawRobot();
+        end
+
+        % Value changing function: th1Slider
+        function th1SliderValueChanging(app, event)
+            app.th1 = event.Value;
+            app.th1EditField.Value = event.Value;
+            app.drawRobot();
+           
+            
+        end
+
+        % Value changing function: th2Slider
+        function th2SliderValueChanging(app, event)
+            app.th2 = -1 * event.Value;
+            app.th2EditField.Value = event.Value;
+            app.drawRobot();
+            
+        end
+
+        % Value changing function: th3Slider
+        function th3SliderValueChanging(app, event)
+            app.th3 = event.Value;
+            app.th3EditField.Value = event.Value;
+            app.drawRobot();
+            
+        end
+
+        % Value changing function: th4Slider
+        function th4SliderValueChanging(app, event)
+            app.th4 =  event.Value;
+            app.th4EditField.Value = event.Value;
+            app.drawRobot();
+            
+        end
+
+        % Value changing function: th5Slider
+        function th5SliderValueChanging(app, event)
+            app.th5 = event.Value;
+            app.th5EditField.Value = event.Value;
+            app.drawRobot();
+            
+        end
+
+        % Value changing function: d6Slider
+        function d6SliderValueChanging(app, event)
+            app.d6 = event.Value;
+            app.d6EditField.Value = event.Value;
+            app.drawRobot();
+            
+        end
+    end
+
+    % Component initialization
+    methods (Access = private)
+
+        % Create UIFigure and components
+        function createComponents(app)
+
+            % Create UIFigure and hide until all components are created
+            app.UIFigure = uifigure('Visible', 'off');
+            app.UIFigure.Position = [100 100 640 480];
+            app.UIFigure.Name = 'MATLAB App';
+
+            % Create InitialiseButton
+            app.InitialiseButton = uibutton(app.UIFigure, 'push');
+            app.InitialiseButton.ButtonPushedFcn = createCallbackFcn(app, @InitialiseButtonPushed, true);
+            app.InitialiseButton.Position = [115 408 100 23];
+            app.InitialiseButton.Text = 'Initialise';
+
+            % Create HomeButton
+            app.HomeButton = uibutton(app.UIFigure, 'push');
+            app.HomeButton.ButtonPushedFcn = createCallbackFcn(app, @HomeButtonPushed, true);
+            app.HomeButton.Visible = 'off';
+            app.HomeButton.Position = [375 408 100 23];
+            app.HomeButton.Text = 'Home';
+
+            % Create th1SliderLabel
+            app.th1SliderLabel = uilabel(app.UIFigure);
+            app.th1SliderLabel.HorizontalAlignment = 'right';
+            app.th1SliderLabel.Visible = 'off';
+            app.th1SliderLabel.Position = [22 337 25 22];
+            app.th1SliderLabel.Text = 'th1';
+
+            % Create th1Slider
+            app.th1Slider = uislider(app.UIFigure);
+            app.th1Slider.Limits = [-360 360];
+            app.th1Slider.ValueChangingFcn = createCallbackFcn(app, @th1SliderValueChanging, true);
+            app.th1Slider.Visible = 'off';
+            app.th1Slider.Position = [58 358 458 3];
+
+            % Create th3SliderLabel
+            app.th3SliderLabel = uilabel(app.UIFigure);
+            app.th3SliderLabel.HorizontalAlignment = 'right';
+            app.th3SliderLabel.Visible = 'off';
+            app.th3SliderLabel.Position = [22 245 25 22];
+            app.th3SliderLabel.Text = 'th3';
+
+            % Create th3Slider
+            app.th3Slider = uislider(app.UIFigure);
+            app.th3Slider.Limits = [-360 360];
+            app.th3Slider.ValueChangingFcn = createCallbackFcn(app, @th3SliderValueChanging, true);
+            app.th3Slider.Visible = 'off';
+            app.th3Slider.Position = [58 268 460 3];
+
+            % Create th2SliderLabel
+            app.th2SliderLabel = uilabel(app.UIFigure);
+            app.th2SliderLabel.HorizontalAlignment = 'right';
+            app.th2SliderLabel.Visible = 'off';
+            app.th2SliderLabel.Position = [22 298 25 22];
+            app.th2SliderLabel.Text = 'th2';
+
+            % Create th2Slider
+            app.th2Slider = uislider(app.UIFigure);
+            app.th2Slider.Limits = [-360 360];
+            app.th2Slider.ValueChangingFcn = createCallbackFcn(app, @th2SliderValueChanging, true);
+            app.th2Slider.Visible = 'off';
+            app.th2Slider.Position = [58 311 458 3];
+
+            % Create th4SliderLabel
+            app.th4SliderLabel = uilabel(app.UIFigure);
+            app.th4SliderLabel.HorizontalAlignment = 'right';
+            app.th4SliderLabel.Visible = 'off';
+            app.th4SliderLabel.Position = [22 194 25 22];
+            app.th4SliderLabel.Text = 'th4';
+
+            % Create th4Slider
+            app.th4Slider = uislider(app.UIFigure);
+            app.th4Slider.Limits = [-360 360];
+            app.th4Slider.ValueChangingFcn = createCallbackFcn(app, @th4SliderValueChanging, true);
+            app.th4Slider.Visible = 'off';
+            app.th4Slider.Position = [58 217 462 3];
+
+            % Create th5SliderLabel
+            app.th5SliderLabel = uilabel(app.UIFigure);
+            app.th5SliderLabel.HorizontalAlignment = 'right';
+            app.th5SliderLabel.Visible = 'off';
+            app.th5SliderLabel.Position = [22 137 25 22];
+            app.th5SliderLabel.Text = 'th5';
+
+            % Create th5Slider
+            app.th5Slider = uislider(app.UIFigure);
+            app.th5Slider.Limits = [-360 360];
+            app.th5Slider.ValueChangingFcn = createCallbackFcn(app, @th5SliderValueChanging, true);
+            app.th5Slider.Visible = 'off';
+            app.th5Slider.Position = [58 160 459 3];
+
+            % Create d6SliderLabel
+            app.d6SliderLabel = uilabel(app.UIFigure);
+            app.d6SliderLabel.HorizontalAlignment = 'right';
+            app.d6SliderLabel.Visible = 'off';
+            app.d6SliderLabel.Position = [22 90 25 22];
+            app.d6SliderLabel.Text = 'd6';
+
+            % Create d6Slider
+            app.d6Slider = uislider(app.UIFigure);
+            app.d6Slider.Limits = [0 20];
+            app.d6Slider.ValueChangingFcn = createCallbackFcn(app, @d6SliderValueChanging, true);
+            app.d6Slider.Visible = 'off';
+            app.d6Slider.Position = [58 99 462 3];
+
+            % Create th1EditFieldLabel
+            app.th1EditFieldLabel = uilabel(app.UIFigure);
+            app.th1EditFieldLabel.HorizontalAlignment = 'right';
+            app.th1EditFieldLabel.Visible = 'off';
+            app.th1EditFieldLabel.Position = [536 347 25 22];
+            app.th1EditFieldLabel.Text = 'th1';
+
+            % Create th1EditField
+            app.th1EditField = uieditfield(app.UIFigure, 'numeric');
+            app.th1EditField.Visible = 'off';
+            app.th1EditField.Position = [576 347 44 22];
+
+            % Create th2EditFieldLabel
+            app.th2EditFieldLabel = uilabel(app.UIFigure);
+            app.th2EditFieldLabel.HorizontalAlignment = 'right';
+            app.th2EditFieldLabel.Visible = 'off';
+            app.th2EditFieldLabel.Position = [536 298 25 22];
+            app.th2EditFieldLabel.Text = 'th2';
+
+            % Create th2EditField
+            app.th2EditField = uieditfield(app.UIFigure, 'numeric');
+            app.th2EditField.Visible = 'off';
+            app.th2EditField.Position = [576 298 44 22];
+
+            % Create th3EditFieldLabel
+            app.th3EditFieldLabel = uilabel(app.UIFigure);
+            app.th3EditFieldLabel.HorizontalAlignment = 'right';
+            app.th3EditFieldLabel.Visible = 'off';
+            app.th3EditFieldLabel.Position = [536 255 25 22];
+            app.th3EditFieldLabel.Text = 'th3';
+
+            % Create th3EditField
+            app.th3EditField = uieditfield(app.UIFigure, 'numeric');
+            app.th3EditField.Visible = 'off';
+            app.th3EditField.Position = [576 255 44 22];
+
+            % Create th4EditFieldLabel
+            app.th4EditFieldLabel = uilabel(app.UIFigure);
+            app.th4EditFieldLabel.HorizontalAlignment = 'right';
+            app.th4EditFieldLabel.Visible = 'off';
+            app.th4EditFieldLabel.Position = [536 204 25 22];
+            app.th4EditFieldLabel.Text = 'th4';
+
+            % Create th4EditField
+            app.th4EditField = uieditfield(app.UIFigure, 'numeric');
+            app.th4EditField.Visible = 'off';
+            app.th4EditField.Position = [576 204 44 22];
+
+            % Create th5EditFieldLabel
+            app.th5EditFieldLabel = uilabel(app.UIFigure);
+            app.th5EditFieldLabel.HorizontalAlignment = 'right';
+            app.th5EditFieldLabel.Visible = 'off';
+            app.th5EditFieldLabel.Position = [536 141 25 22];
+            app.th5EditFieldLabel.Text = 'th5';
+
+            % Create th5EditField
+            app.th5EditField = uieditfield(app.UIFigure, 'numeric');
+            app.th5EditField.Visible = 'off';
+            app.th5EditField.Position = [576 141 44 22];
+
+            % Create d6EditFieldLabel
+            app.d6EditFieldLabel = uilabel(app.UIFigure);
+            app.d6EditFieldLabel.HorizontalAlignment = 'right';
+            app.d6EditFieldLabel.Visible = 'off';
+            app.d6EditFieldLabel.Position = [536 80 25 22];
+            app.d6EditFieldLabel.Text = 'd6';
+
+            % Create d6EditField
+            app.d6EditField = uieditfield(app.UIFigure, 'numeric');
+            app.d6EditField.Visible = 'off';
+            app.d6EditField.Position = [576 80 44 22];
+
+            % Show the figure after all components are created
+            app.UIFigure.Visible = 'on';
+        end
+    end
+
+    % App creation and deletion
+    methods (Access = public)
+
+        % Construct app
+        function app = HW4_Arm_07
+
+            % Create UIFigure and components
+            createComponents(app)
+
+            % Register the app with App Designer
+            registerApp(app, app.UIFigure)
+
+            if nargout == 0
+                clear app
+            end
+        end
+
+        % Code that executes before app deletion
+        function delete(app)
+
+            % Delete UIFigure when app is deleted
+            delete(app.UIFigure)
+        end
+    end
+end]]></w:t></w:r></w:p></w:body></w:document>

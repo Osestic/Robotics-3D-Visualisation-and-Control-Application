@@ -1,0 +1,39 @@
+function [data, info] = turretJoy
+%TurretJoy gives an empty data for interbotix_xs_msgs/TurretJoy
+% Copyright 2019-2020 The MathWorks, Inc.
+%#codegen
+data = struct();
+data.MessageType = 'interbotix_xs_msgs/TurretJoy';
+[data.PANCCW, info.PANCCW] = ros.internal.ros.messages.ros.default_type('int8',1, 1);
+[data.PANCW, info.PANCW] = ros.internal.ros.messages.ros.default_type('int8',1, 2);
+[data.TILTUP, info.TILTUP] = ros.internal.ros.messages.ros.default_type('int8',1, 3);
+[data.TILTDOWN, info.TILTDOWN] = ros.internal.ros.messages.ros.default_type('int8',1, 4);
+[data.PANTILTHOME, info.PANTILTHOME] = ros.internal.ros.messages.ros.default_type('int8',1, 5);
+[data.SPEEDINC, info.SPEEDINC] = ros.internal.ros.messages.ros.default_type('int8',1, 6);
+[data.SPEEDDEC, info.SPEEDDEC] = ros.internal.ros.messages.ros.default_type('int8',1, 7);
+[data.SPEEDCOURSE, info.SPEEDCOURSE] = ros.internal.ros.messages.ros.default_type('int8',1, 8);
+[data.SPEEDFINE, info.SPEEDFINE] = ros.internal.ros.messages.ros.default_type('int8',1, 9);
+[data.PanCmd, info.PanCmd] = ros.internal.ros.messages.ros.default_type('int8',1);
+[data.TiltCmd, info.TiltCmd] = ros.internal.ros.messages.ros.default_type('int8',1);
+[data.SpeedCmd, info.SpeedCmd] = ros.internal.ros.messages.ros.default_type('int8',1);
+[data.SpeedToggleCmd, info.SpeedToggleCmd] = ros.internal.ros.messages.ros.default_type('int8',1);
+info.MessageType = 'interbotix_xs_msgs/TurretJoy';
+info.constant = 0;
+info.default = 0;
+info.maxstrlen = NaN;
+info.MaxLen = 1;
+info.MinLen = 1;
+info.MatPath = cell(1,13);
+info.MatPath{1} = 'PAN_CCW';
+info.MatPath{2} = 'PAN_CW';
+info.MatPath{3} = 'TILT_UP';
+info.MatPath{4} = 'TILT_DOWN';
+info.MatPath{5} = 'PAN_TILT_HOME';
+info.MatPath{6} = 'SPEED_INC';
+info.MatPath{7} = 'SPEED_DEC';
+info.MatPath{8} = 'SPEED_COURSE';
+info.MatPath{9} = 'SPEED_FINE';
+info.MatPath{10} = 'pan_cmd';
+info.MatPath{11} = 'tilt_cmd';
+info.MatPath{12} = 'speed_cmd';
+info.MatPath{13} = 'speed_toggle_cmd';

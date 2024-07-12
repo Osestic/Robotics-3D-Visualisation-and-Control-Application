@@ -1,0 +1,550 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2023a/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2023a/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /home/user/.matlab/R2023a/ros1/glnxa64/venv/lib/python3.8/site-packages/em.py  
+-- Using empy: /home/user/.matlab/R2023a/ros1/glnxa64/venv/lib/python3.8/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - interbotix_xs_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'interbotix_xs_msgs'
+-- ==> add_subdirectory(interbotix_xs_msgs)
+CMake Warning at /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: geneus
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  interbotix_xs_msgs/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: genlisp
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  interbotix_xs_msgs/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: gennodejs
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/gencpp/cmake/gencppConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/message_generation/cmake/message_generationConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  interbotix_xs_msgs/CMakeLists.txt:20 (find_package)
+
+
+-- Using these message generators: gencpp;genpy
+-- interbotix_xs_msgs: 8 messages, 6 services
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build
+[1/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/srv/TorqueEnable.srv
+[2/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/msg/LocobotJoy.msg
+[3/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/msg/HexJoy.msg
+[4/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/srv/RegisterValues.srv
+[5/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/srv/OperatingModes.srv
+[6/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/msg/JointSingleCommand.msg
+[7/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/msg/TurretJoy.msg
+[8/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/msg/JointTrajectoryCommand.msg std_msgs/Header:trajectory_msgs/JointTrajectoryPoint:trajectory_msgs/JointTrajectory
+[9/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/srv/MotorGains.srv
+[10/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/srv/RobotInfo.srv
+[11/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/msg/JointGroupCommand.msg
+[12/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/msg/JointTemps.msg
+[13/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/msg/ArmJoy.msg
+[14/60] cd /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/interbotix_xs_msgs && /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /home/user/.matlab/R2023a/ros1/glnxa64/venv/bin/python3 /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py interbotix_xs_msgs /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/srv/Reboot.srv
+[15/60] Generating C++ code from interbotix_xs_msgs/HexJoy.msg
+[16/60] Generating Python code from SRV interbotix_xs_msgs/MotorGains
+[17/60] Generating Python from MSG interbotix_xs_msgs/JointTrajectoryCommand
+[18/60] Generating Python code from SRV interbotix_xs_msgs/Reboot
+[19/60] Generating Python from MSG interbotix_xs_msgs/TurretJoy
+[20/60] Generating Python from MSG interbotix_xs_msgs/HexJoy
+[21/60] Generating Python code from SRV interbotix_xs_msgs/OperatingModes
+[22/60] Generating Python from MSG interbotix_xs_msgs/JointTemps
+[23/60] Generating Python from MSG interbotix_xs_msgs/LocobotJoy
+[24/60] Generating Python code from SRV interbotix_xs_msgs/TorqueEnable
+[25/60] Generating Python from MSG interbotix_xs_msgs/ArmJoy
+[26/60] Generating Python from MSG interbotix_xs_msgs/JointGroupCommand
+[27/60] Generating Python from MSG interbotix_xs_msgs/JointSingleCommand
+[28/60] Generating Python code from SRV interbotix_xs_msgs/RobotInfo
+[29/60] Generating Python code from SRV interbotix_xs_msgs/RegisterValues
+[30/60] Generating C++ code from interbotix_xs_msgs/ArmJoy.msg
+[31/60] Generating C++ code from interbotix_xs_msgs/JointGroupCommand.msg
+[32/60] Generating C++ code from interbotix_xs_msgs/JointSingleCommand.msg
+[33/60] Generating Python srv __init__.py for interbotix_xs_msgs
+[34/60] Generating Python msg __init__.py for interbotix_xs_msgs
+[35/60] Generating C++ code from interbotix_xs_msgs/JointTemps.msg
+[36/60] Generating C++ code from interbotix_xs_msgs/JointTrajectoryCommand.msg
+[37/60] Generating C++ code from interbotix_xs_msgs/TurretJoy.msg
+[38/60] Generating C++ code from interbotix_xs_msgs/LocobotJoy.msg
+[39/60] Generating C++ code from interbotix_xs_msgs/TorqueEnable.srv
+[40/60] Generating C++ code from interbotix_xs_msgs/Reboot.srv
+[41/60] Generating C++ code from interbotix_xs_msgs/OperatingModes.srv
+[42/60] Generating C++ code from interbotix_xs_msgs/RegisterValues.srv
+[43/60] Generating C++ code from interbotix_xs_msgs/RobotInfo.srv
+[44/60] Generating C++ code from interbotix_xs_msgs/MotorGains.srv
+[45/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_TurretJoy_message.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_TurretJoy_message.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[46/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_JointSingleCommand_message.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_JointSingleCommand_message.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[47/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_LocobotJoy_message.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_LocobotJoy_message.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[48/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_ArmJoy_message.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_ArmJoy_message.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[49/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_HexJoy_message.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_HexJoy_message.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[50/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_JointTrajectoryCommand_message.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_JointTrajectoryCommand_message.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[51/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_JointGroupCommand_message.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_JointGroupCommand_message.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[52/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_JointTemps_message.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_JointTemps_message.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[53/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_TorqueEnable_service.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_TorqueEnable_service.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[54/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_Reboot_service.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_Reboot_service.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[55/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_OperatingModes_service.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_OperatingModes_service.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[56/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_MotorGains_service.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_MotorGains_service.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[57/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_RegisterValues_service.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_RegisterValues_service.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[58/60] Building CXX object interbotix_xs_msgs/CMakeFiles/interbotix_xs_msgs_matlab.dir/src/interbotix_xs_msgs_RobotInfo_service.cpp.o
+In file included from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/time_clock.hpp:53,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time_types.hpp:46,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/time_formatters.hpp:52,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/posix_time/posix_time.hpp:60,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time/local_time/local_time.hpp:47,
+                 from /usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/date_time.hpp:51,
+                 from /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/interbotix_xs_msgs/src/interbotix_xs_msgs_RobotInfo_service.cpp:3:
+/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[59/60] Linking CXX shared library /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/libinterbotix_xs_msgs_matlab.so
+[59/60] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/_setup_util.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/env.sh
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/setup.bash
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/local_setup.bash
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/setup.sh
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/local_setup.sh
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/setup.zsh
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/local_setup.zsh
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/.rosinstall
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/msg/ArmJoy.msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/msg/HexJoy.msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/msg/JointGroupCommand.msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/msg/JointSingleCommand.msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/msg/JointTemps.msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/msg/JointTrajectoryCommand.msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/msg/LocobotJoy.msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/msg/TurretJoy.msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/srv/MotorGains.srv
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/srv/OperatingModes.srv
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/srv/Reboot.srv
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/srv/RegisterValues.srv
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/srv/RobotInfo.srv
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/srv/TorqueEnable.srv
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs-msg-paths.cmake
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/RobotInfoRequest.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/Reboot.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/RegisterValuesRequest.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/RegisterValuesResponse.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/JointTrajectoryCommand.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/JointTemps.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/MotorGains.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/TorqueEnableResponse.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/RobotInfoResponse.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/LocobotJoy.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/TorqueEnableRequest.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/RebootResponse.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/RegisterValues.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/JointGroupCommand.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/OperatingModesResponse.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/OperatingModes.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/RebootRequest.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/RobotInfo.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/TorqueEnable.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/MotorGainsRequest.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/OperatingModesRequest.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/HexJoy.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/JointSingleCommand.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/ArmJoy.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/MotorGainsResponse.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/TurretJoy.h
+Listing '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/__init__.py'...
+Listing '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/_ArmJoy.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/_HexJoy.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/_JointGroupCommand.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/_JointSingleCommand.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/_JointTemps.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/_JointTrajectoryCommand.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/_LocobotJoy.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/_TurretJoy.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/msg/__init__.py'...
+Listing '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/srv'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/srv/_MotorGains.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/srv/_OperatingModes.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/srv/_Reboot.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/srv/_RegisterValues.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/srv/_RobotInfo.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/srv/_TorqueEnable.py'...
+Compiling '/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel/lib/python3/dist-packages/interbotix_xs_msgs/srv/__init__.py'...
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/_JointGroupCommand.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/_HexJoy.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/_JointGroupCommand.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/_TurretJoy.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/_JointTemps.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/_LocobotJoy.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/_JointTrajectoryCommand.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/_ArmJoy.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/_JointSingleCommand.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/_JointSingleCommand.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/_JointTrajectoryCommand.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/_TurretJoy.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/_ArmJoy.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/_JointTemps.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/__init__.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/_HexJoy.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/msg/_LocobotJoy.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/__pycache__
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/_RobotInfo.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/_MotorGains.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/_TorqueEnable.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__pycache__
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__pycache__/_TorqueEnable.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__pycache__/_RobotInfo.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__pycache__/_OperatingModes.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__pycache__/_MotorGains.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__pycache__/_RegisterValues.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__pycache__/_Reboot.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__pycache__/__init__.cpython-38.pyc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/_OperatingModes.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/_Reboot.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/_RegisterValues.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/srv/__init__.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/python3/dist-packages/interbotix_xs_msgs/__init__.py
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/pkgconfig/interbotix_xs_msgs.pc
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/cmake/interbotix_xs_msgs-msg-extras.cmake
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig.cmake
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/cmake/interbotix_xs_msgsConfig-version.cmake
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/share/interbotix_xs_msgs/package.xml
+-- Up-to-date: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include
+-- Up-to-date: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/include/interbotix_xs_msgs/visibility_control.h
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/lib/libinterbotix_xs_msgs_matlab.so
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m/
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/robotInfoRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/turretJoy.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/jointTemps.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/jointGroupCommand.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/locobotJoy.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/torqueEnableRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/registerValuesResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/operatingModesResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/rebootRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/robotInfoResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/rebootResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/motorGainsResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/motorGainsRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/armJoy.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/torqueEnableResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/jointSingleCommand.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/operatingModesRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/registerValuesRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/hexJoy.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+interbotix_xs_msgs/jointTrajectoryCommand.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/JointTemps.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/LocobotJoy.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/RobotInfoResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/TorqueEnableResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/TurretJoy.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/OperatingModesRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/MotorGainsResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/JointGroupCommand.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/OperatingModesResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/RobotInfoRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/RegisterValuesRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/TorqueEnableRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/JointTrajectoryCommand.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/JointSingleCommand.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/RebootResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/ArmJoy.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/RebootRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/MotorGainsRequest.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/RegisterValuesResponse.m
+-- Installing: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+interbotix_xs_msgs/HexJoy.m
+Base path: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64
+Source space: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install
+Creating symlink "/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src/CMakeLists.txt" pointing to "/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1/share/catkin/cmake/toplevel.cmake"
+####
+#### Running command: "cmake /home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/src -DALIAS_ROS1_CLASS_LOADER=1 -DBoost_NAMESPACE=mwboost -DCATKIN_ENABLE_TESTING=off -DCMAKE_PREFIX_PATH=/usr/local/MATLAB/R2023a/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2023a/toolbox/ros/mlroscpp/custom_messages -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS_RELEASE=-O0 -DCATKIN_DEVEL_PREFIX=/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/devel -DCMAKE_INSTALL_PREFIX=/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/install -G Ninja" in "/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j16 -l16" in "/home/user/interbotix_ws/src/interbotix_ros_core/interbotix_ros_xseries/matlab_msg_gen_ros1/glnxa64/build"
+####
