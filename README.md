@@ -34,15 +34,17 @@ This depicts my view as the developer of the application. You won't see the hidd
    1. Enables users to control the joints of the robot independently with sliders or by setting each angle by typing in it directly in the input fields. The gripper can also be opened and closed.
    2. Different numbers of joints and all joints can be set to different positions simultaneously by indicating in the input fields.
    3. The robot can be taught different positions & sequences of movements with different speeds and accelerations in a relaxed state with the application with Stored ```Joints Value table``` by using the ```relax``` and ```Store Points```  button. Energise the robot after relaxing it for your purposes.
-   • Joint positions including the movement and acceleration time can be exported and imported with files. 
-   • You can choose to see only the 3D Animation simulation before controlling the robot and seeing the corresponding simulation with the ```Play``` button.
-   • The Transformation matrix is displayed at every point in which the Robot is moving, and the Inverse Kinematics table can be calculated by pressing the respective button. From Robotics theory, different angles can have the same Transformation matrix. However, practically, the Robot may not be able to move to those positions obtained from the Inverse Kinematics without damaging itself.
-   • Angles calculated from Inverse Kinematics can be moved by specifying the specific solution in the ```Move to Solution```  field. Non-feasible angles will be highlighted in red. For the Transformation matrix with infinite solutions, it will be displayed in the status bar.
-   • The are buttons for the Sleep and Home button
+   4. Joint positions including the movement and acceleration time can be exported and imported with files. 
+   5. You can choose to see only the 3D Animation simulation before controlling the robot and seeing the corresponding simulation with the ```Play``` button.
+   6. The Transformation matrix is displayed at every point in which the Robot is moving, and the Inverse Kinematics table can be calculated by pressing the respective button. From Robotics theory, different angles can have the same Transformation matrix. However, practically, the Robot may not be able to move to those positions obtained from the Inverse Kinematics without damaging itself.
+   7. Angles calculated from Inverse Kinematics can be moved by specifying the specific solution in the ```Move to Solution```  field. Non-feasible angles will be highlighted in red. For the Transformation matrix with infinite solutions, it will be displayed in the status bar.
+   8. The are buttons for the Sleep and Home button
 
 Note:
-• At all times, the exact position is being drawn and simulated in real-time by the application. This was not a mandated requirement for the project.
+At all times, the exact position is being drawn and simulated in real-time by the application. This was not a mandated requirement for the project.
 Nevertheless, my partner and I did so regardless.
+
+
 The following are pictures of the  WidowX_Arm_HIWONDER_Bionic_Hand-Interface in performing different hand positions. 
 
 
@@ -56,27 +58,12 @@ The following are pictures of the  WidowX_Arm_HIWONDER_Bionic_Hand-Interface in 
 
 [Video Demo](https://youtu.be/vg_HYsMw0Hg) 
 
-To capture new positions and sequences for the WidowX_Arm_HIWONDER_Bionic_Hand-Interface, do the following:
-1. Run the ```PyPose.py```.
-2. Run the ```pypose.ino```.
-3. Select the maximum resolution, 4096.
-4. Select a serial port from the config tab.
-5. Select the pose editor from the tools and create a new position.
-6. Select capture position.
-7. Set can be used to set the position.
-8. Select the tools tab and select sequence editor.
-9. Load in the positions you have captured and choose the duration you wish for each one.
-10. Export the positions and sequences you have created by clicking the export to AVR fromt the tools tab.
-11. You can save the application as a file you can always load.
-
-The image of how the pose capturing looks like is shown below:
-![Screenshot 2023-12-17 200032](https://github.com/Osestic/WidowX_Arm_HIWONDER_Bionic_Hand-Interface/assets/42704298/a565100c-5b07-490d-9a5a-44bf54016e5d)
 
  
 ## Authors
 This project was a result of the collaborative effort of:
-1. Oriekaose Chukwuyem Agholor - Aspiring Robotics and Mechatronic Systems Engineer [https://github.com/Osestic]
-2. Evan Varga - Aspiring Electrical Engineer [https://github.com/EvanVarga]
+1. Oriekaose Chukwuyem Agholor - Aspiring Robotics and Mechatronic Systems Engineer [https://www.oriekaose.com]
+2. Ziyuan Zhao - Robotics and Mechatronic Systems Engineer [https://www.linkedin.com/in/ziyuan-zhao-89195326b/]
 
 ## License
 This project is licensed under the “Commons Clause” License Condition v1.0. See ```LICENSE``` for more information.
