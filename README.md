@@ -2,7 +2,10 @@
 
 
 ![Screenshot 2024-03-05 152304](https://github.com/user-attachments/assets/df1462ee-29e6-4451-8a4d-bda22c298c5b)
-![Screenshot 2024-03-05 152149](https://github.com/user-attachments/assets/d847686b-8df3-4086-97cf-f415ec18de13)
+![image](https://github.com/user-attachments/assets/696e186a-bffb-4e97-a1d6-2e309a2bbebc)
+
+
+
 
 ## Description
 Throughout my Robotics course, MENG 4900, all my major Home Work was tied to this larger project of developing a Robotics 3D Visualisation and Control Application. The coming together of Robotics theory, Mechanical engineering design and programming birthed this awesome project. I did not achieve this alone but with my partner, [Ziyuan Zhao ](https://www.linkedin.com/in/ziyuan-zhao-89195326b/).
