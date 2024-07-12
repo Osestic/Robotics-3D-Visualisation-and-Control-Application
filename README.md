@@ -17,7 +17,7 @@ Through the mathematics, physics and engineering theory of Robotics, the simulat
 
 ## Programmed With
 
-[![My Skills](https://skillicons.dev/icons?i=matlabperline=1)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=matlab)](https://skillicons.dev)
 
 
 ## Installation
