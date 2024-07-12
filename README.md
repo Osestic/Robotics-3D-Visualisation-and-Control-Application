@@ -1,10 +1,9 @@
 # Robotics-3D-Visualisation-and-Control-Application
 
-
-![Screenshot 2024-03-05 152304](https://github.com/user-attachments/assets/df1462ee-29e6-4451-8a4d-bda22c298c5b)
 ![image](https://github.com/user-attachments/assets/696e186a-bffb-4e97-a1d6-2e309a2bbebc)
+![Screenshot 2024-03-05 152304](https://github.com/user-attachments/assets/df1462ee-29e6-4451-8a4d-bda22c298c5b)
 
-
+![Screenshot 2024-07-10 054808](https://github.com/user-attachments/assets/c65605f8-efa8-46f4-8e0b-2bbac7d23dee)
 
 
 ## Description
@@ -28,8 +27,10 @@ Through the mathematics, physics and engineering theory of Robotics such as Dena
 2. The Appdesigner will appear similar to the one below, press the initialise button for the hidden aspects to show. This is essential to prevent you from trying to perform an action that can not occur
    until the Robot and the 3D simulation are set and initialised.
 This depicts my view as the developer of the application. You won't see the hidden part till the ```Initialise``` button is pressed.
+
+
 ![Screenshot 2024-07-10 054808](https://github.com/user-attachments/assets/f334d743-f5d4-4edb-9daa-27b22be2da8b)
-3. With this application you can:
+4. With this application you can:
    • Enables users to control the joints of the robot independently with sliders or by setting each angle by typing in it directly in the input fields. The gripper can also be opened and closed.
    • Different numbers of joints and all joints can be set to different positions simultaneously by indicating in the input fields.
    • The robot can be taught different positions & sequences of movements with different speeds and accelerations in a relaxed state with the application with Stored ```Joints Value table``` by using the ```relax``` and ```Store Points```  button. Energise the robot after relaxing it for your purposes.
