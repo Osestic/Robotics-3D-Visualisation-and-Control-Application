@@ -31,7 +31,7 @@ The 3D Model Rendering produced with SolidWorks
 1. Run ```HW8_update.mlapp``` from "interbotix_ws\srcn\interbotix_ros_manipulators\interbotix_ros_xsarms\examples\matlab_demos\HW7\" in the location of your MATLAB-ROS interface installation
 2. The Appdesigner will appear similar to the one below, press the initialise button for the hidden aspects to show. This is essential to prevent you from trying to perform an action that can not occur
    until the Robot and the 3D simulation are set and initialised.
-This depicts my view as the developer of the application. You won't see the hidden part till the ```Initialise``` button is pressed.
+This depicts my view as the developer of the application. You won't see the hidden part at all till the ```Initialise``` button is pressed.
 
 
 ![Screenshot 2024-07-10 054808](https://github.com/user-attachments/assets/f334d743-f5d4-4edb-9daa-27b22be2da8b)
