@@ -1,16 +1,20 @@
 # Robotics-3D-Visualisation-and-Control-Application
+![3DRobot](https://github.com/user-attachments/assets/c0de4073-acce-4efb-acbd-05a8495366c9)
 
-![image](https://github.com/user-attachments/assets/696e186a-bffb-4e97-a1d6-2e309a2bbebc)
 ![Screenshot 2024-03-05 152304](https://github.com/user-attachments/assets/df1462ee-29e6-4451-8a4d-bda22c298c5b)
+Graphical view of the Robot on MATLAB.
 
 ![Screenshot 2024-07-10 054808](https://github.com/user-attachments/assets/c65605f8-efa8-46f4-8e0b-2bbac7d23dee)
-
+The GUI through which both the Virtual and Real-World Robot Can be Controlled. 
 
 ## Description
 Throughout my Robotics course, MENG 4900, all my major Home Work was tied to this larger project of developing a Robotics 3D Visualisation and Control Application. The coming together of Robotics theory, Mechanical engineering design and programming birthed this awesome project. I did not achieve this alone but with my partner, [Ziyuan Zhao ](https://www.linkedin.com/in/ziyuan-zhao-89195326b/) and with the guidance and assistance of the instructor of the course, [Professor Jonathan Weaver](https://www.linkedin.com/in/jonathanmweaver/)
 
 Through the mathematics, physics and engineering theory of Robotics such as Denavit–Hartenberg parameters and Inverse Kinematics derived manuallu, the simulation of the Interbotix Robotic Arm was brought to life using MATLAB, ROS and Appdesigner after being measured by hand and designed with SolidWorks. You can see and interact with the 3D model of Interbotix Robotic arm on my website:[oriekaose.com/design-portfolio/#interbotix](https://oriekaose.com/design-portfolio/#interbotix) 
 
+
+![image](https://github.com/user-attachments/assets/696e186a-bffb-4e97-a1d6-2e309a2bbebc)
+The 3D Model Rendering produced with SolidWorks
 ## Set up & Installation
 1. Obtain a LINUX PC. We used Ubuntu.
 2.	Install MATLAB-ROS Interface [docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros1/software_setup.html].(https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros1/software_setup.html).
