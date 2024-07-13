@@ -5,6 +5,7 @@
 Graphical view of the Robot on MATLAB.
 
 ![Screenshot 2024-07-10 054808](https://github.com/user-attachments/assets/c65605f8-efa8-46f4-8e0b-2bbac7d23dee)
+
 The GUI through which both the Virtual and Real-World Robot Can be Controlled. 
 
 ## Description
