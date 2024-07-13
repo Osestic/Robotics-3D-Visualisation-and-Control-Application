@@ -1,12 +1,12 @@
 # Robotics-3D-Visualisation-and-Control-Application
 ![3DRobot](https://github.com/user-attachments/assets/c0de4073-acce-4efb-acbd-05a8495366c9)
 
+Graphical view of the Robot on MATLAB.:
 ![Screenshot 2024-03-05 152304](https://github.com/user-attachments/assets/df1462ee-29e6-4451-8a4d-bda22c298c5b)
-Graphical view of the Robot on MATLAB.
 
+The GUI through which both the Virtual and Real-World Robot Can be Controlled:
 ![Screenshot 2024-07-10 054808](https://github.com/user-attachments/assets/c65605f8-efa8-46f4-8e0b-2bbac7d23dee)
 
-The GUI through which both the Virtual and Real-World Robot Can be Controlled. 
 
 ## Description
 Throughout my Robotics course, MENG 4900, all my major Home Work was tied to this larger project of developing a Robotics 3D Visualisation and Control Application. The coming together of Robotics theory, Mechanical engineering design and programming birthed this awesome project. I did not achieve this alone but with my partner, [Ziyuan Zhao ](https://www.linkedin.com/in/ziyuan-zhao-89195326b/) and with the guidance and assistance of the instructor of the course, [Professor Jonathan Weaver](https://www.linkedin.com/in/jonathanmweaver/)
