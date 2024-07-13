@@ -39,17 +39,18 @@ This depicts my view as the developer of the application. You won't see the hidd
    - Enables users to control the joints of the robot independently with sliders or by setting each angle by typing in it directly in the input fields. The gripper can also be opened and closed.
    - Different numbers of joints and all joints can be set to different positions simultaneously by indicating in the input fields.
    - The robot can be taught different positions & sequences of movements with different speeds and accelerations in a relaxed state with the application with Stored ```Joints Value table``` by using the ```relax``` and ```Store Points```  button. Energise the robot after relaxing it for your purposes.
-   4. Joint positions including the movement and acceleration time can be exported and imported with files. 
-   5. You can choose to see only the 3D Animation simulation before controlling the robot and seeing the corresponding simulation with the ```Play``` button.
-   6. The Transformation matrix is displayed at every point in which the Robot is moving, and the Inverse Kinematics table can be calculated by pressing the respective button. From Robotics theory, different angles can have the same Transformation matrix. However, practically, the Robot may not be able to move to those positions obtained from the Inverse Kinematics without damaging itself.
-   7. Angles calculated from Inverse Kinematics can be moved by specifying the specific solution in the ```Move to Solution```  field. Non-feasible angles will be highlighted in red. For the Transformation matrix with infinite solutions, it will be displayed in the status bar.
-   8. The are buttons for the Sleep and Home button
-
+   - Joint positions including the movement and acceleration time can be exported and imported with files. 
+   - You can choose to see only the 3D Animation simulation before controlling the robot and seeing the corresponding simulation with the ```Play``` button.
+   - The Transformation matrix is displayed at every point in which the Robot is moving, and the Inverse Kinematics table can be calculated by pressing the respective button. From Robotics theory, different angles can have the same Transformation matrix. However, practically, the Robot may not be able to move to those positions obtained from the Inverse Kinematics without damaging itself.
+   - Angles calculated from Inverse Kinematics can be moved by specifying the specific solution in the ```Move to Solution```  field and hitting ENTER. Non-feasible angles will be highlighted in red. The Transformation matrix with infinite solutions will be indicated in the status bar.
+   - There are buttons for the movement to the Sleep and Home positions.
+   - Error checking is incorporated such that the robot will only proceeed to the next position as long as it is at the current position specified or within acceptable limits.
 Note:
 At all times, the exact position is being drawn and simulated in real-time by the application. This was not a mandated requirement for the project.
 Nevertheless, my partner and I did so regardless.
 
-
+Both the Virtual and Physical Robot in the same position:
+![image](https://github.com/user-attachments/assets/36f1309b-af13-475e-aaa2-1d89139839fe)
 
 
 
