@@ -36,9 +36,9 @@ This depicts my view as the developer of the application. You won't see the hidd
 
 ![Screenshot 2024-07-10 054808](https://github.com/user-attachments/assets/f334d743-f5d4-4edb-9daa-27b22be2da8b)
 3. With this application you can:
-   1. Enables users to control the joints of the robot independently with sliders or by setting each angle by typing in it directly in the input fields. The gripper can also be opened and closed.
-   2. Different numbers of joints and all joints can be set to different positions simultaneously by indicating in the input fields.
-   3. The robot can be taught different positions & sequences of movements with different speeds and accelerations in a relaxed state with the application with Stored ```Joints Value table``` by using the ```relax``` and ```Store Points```  button. Energise the robot after relaxing it for your purposes.
+   a. Enables users to control the joints of the robot independently with sliders or by setting each angle by typing in it directly in the input fields. The gripper can also be opened and closed.
+   b. Different numbers of joints and all joints can be set to different positions simultaneously by indicating in the input fields.
+   c. The robot can be taught different positions & sequences of movements with different speeds and accelerations in a relaxed state with the application with Stored ```Joints Value table``` by using the ```relax``` and ```Store Points```  button. Energise the robot after relaxing it for your purposes.
    4. Joint positions including the movement and acceleration time can be exported and imported with files. 
    5. You can choose to see only the 3D Animation simulation before controlling the robot and seeing the corresponding simulation with the ```Play``` button.
    6. The Transformation matrix is displayed at every point in which the Robot is moving, and the Inverse Kinematics table can be calculated by pressing the respective button. From Robotics theory, different angles can have the same Transformation matrix. However, practically, the Robot may not be able to move to those positions obtained from the Inverse Kinematics without damaging itself.
