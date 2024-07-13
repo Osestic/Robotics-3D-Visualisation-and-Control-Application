@@ -1,7 +1,9 @@
 # Robotics-3D-Visualisation-and-Control-Application
 ![3DRobot](https://github.com/user-attachments/assets/c0de4073-acce-4efb-acbd-05a8495366c9)
 
-Graphical view of the Robot on MATLAB.:
+Graphical view of the Robot on MATLAB:
+
+
 ![Screenshot 2024-03-05 152304](https://github.com/user-attachments/assets/df1462ee-29e6-4451-8a4d-bda22c298c5b)
 
 The GUI through which both the Virtual and Real-World Robot Can be Controlled:
