@@ -18,7 +18,7 @@ Through the mathematics, physics and engineering theory of Robotics such as Dena
 The 3D Model Rendering produced with SolidWorks
 ## Set up & Installation
 1. Obtain a LINUX PC. We used Ubuntu.
-2.	Install MATLAB-ROS Interface [docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros1/software_setup.html].(https://docs.trossenrobotics.com/interbotix_xsarms_docs/ros_interface/ros1/software_setup.html).
+2.	Install MATLAB-ROS Interface.
 3.	Install the project's contents in ```interbotix_ws\src in the MATLAB-ROS interface installation```.
 4. Connect the Interbotix Robot to the PC.
 
