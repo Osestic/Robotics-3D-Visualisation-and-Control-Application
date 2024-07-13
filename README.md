@@ -59,7 +59,10 @@ Both the Virtual and Physical Robots in the same position:
 ![image](https://github.com/user-attachments/assets/36f1309b-af13-475e-aaa2-1d89139839fe)
 
 ### Version 1 of the Robotics 3D Visualisation and Control Application
+![image](https://github.com/user-attachments/assets/73b0841c-8664-4b16-be68-688a5bb1c3c3)
 [vehicle present](https://www.youtube.com/watch?v=xS1hy-NXCwQ&t=542s&ab_channel=ZiyuanZhao)
+It did not have the real-time simulation. Thus, incrementation was used to control joint positions based on user inputs. This could make it slow at times. 
+Also, you could only use the sliders to control the robot. It is quite limited compared to the final version.
 
 
 
