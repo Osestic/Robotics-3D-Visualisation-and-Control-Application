@@ -50,6 +50,8 @@ At all times, the exact position is being drawn and simulated in real-time by th
 Nevertheless, my partner and I did so regardless.
 
 Both the Virtual and Physical Robot in the same position:
+
+
 ![image](https://github.com/user-attachments/assets/36f1309b-af13-475e-aaa2-1d89139839fe)
 
 
