@@ -47,14 +47,19 @@ This depicts my view as the developer of the application. You won't see the hidd
    - Angles calculated from Inverse Kinematics can be moved by specifying the specific solution in the ```Move to Solution```  field and hitting ENTER. Non-feasible angles will be highlighted in red. The Transformation matrix with infinite solutions will be indicated in the status bar.
    - There are buttons for the movement to the Sleep and Home positions.
    - Error checking is incorporated such that the robot will only proceeed to the next position as long as it is at the current position specified or within acceptable limits.
-Note:
+
+
+** Note: **
 At all times, the exact position is being drawn and simulated in real-time by the application. This was not a mandated requirement for the project.
 Nevertheless, my partner and I did so regardless.
 
-Both the Virtual and Physical Robot in the same position:
+Both the Virtual and Physical Robots in the same position:
 
 
 ![image](https://github.com/user-attachments/assets/36f1309b-af13-475e-aaa2-1d89139839fe)
+
+### Version 1 of the Robotics 3D Visualisation and Control Application
+[vehicle present](https://www.youtube.com/watch?v=xS1hy-NXCwQ&t=542s&ab_channel=ZiyuanZhao)
 
 
 
