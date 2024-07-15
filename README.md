@@ -24,7 +24,7 @@ The 3D Model Rendering produced with SolidWorks
 3.	Install the project's contents in ```interbotix_ws\src in the MATLAB-ROS interface installation```.
 4. Connect the Interbotix Robot to the PC.
 
-## Programmed With
+## Developed With
 
 [![My Skills](https://skillicons.dev/icons?i=matlab,ros,linux)](https://skillicons.dev)
 
