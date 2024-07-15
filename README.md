@@ -26,7 +26,7 @@ The 3D Model Rendering produced with SolidWorks
 
 ## Programmed With
 
-[![My Skills](https://skillicons.dev/icons?i=matlab)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=matlab,ros,linux)](https://skillicons.dev)
 
 
 ## Usage
