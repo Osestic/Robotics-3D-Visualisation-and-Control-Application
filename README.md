@@ -1,4 +1,4 @@
-# Robotics-3D-Visualisation-and-Control-Application
+# Real-Time Robotics 3D Digital Twin & Control Application
 ![3dthumbnail](https://github.com/user-attachments/assets/c0338b66-2d5c-40a6-9d73-810c7ae182b2)
 
 Graphical view of the Robot on MATLAB:
@@ -11,7 +11,7 @@ The GUI through which both the Virtual and Real-World Robot Can be Controlled:
 
 
 ## Description
-Throughout my Robotics course, MENG 4900, all my major Home Work was tied to this larger project of developing a Robotics 3D Visualisation and Control Application. The coming together of Robotics theory, Mechanical engineering design and programming birthed this awesome project. I did not achieve this alone but with my partner, [Ziyuan Zhao ](https://www.linkedin.com/in/ziyuan-zhao-89195326b/) and with the guidance and assistance of the instructor of the course, [Professor Jonathan Weaver](https://www.linkedin.com/in/jonathanmweaver/)
+Throughout my Robotics course, MENG 4900, all my major Home Work was tied to this larger project of developing a Real-Time Robotics 3D Digital Twin & Control Application. The coming together of Robotics theory, Mechanical engineering design and programming birthed this awesome project. I did not achieve this alone but with my partner, [Ziyuan Zhao ](https://www.linkedin.com/in/ziyuan-zhao-89195326b/) and with the guidance and assistance of the instructor of the course, [Professor Jonathan Weaver](https://www.linkedin.com/in/jonathanmweaver/)
 
 Through the mathematics, physics and engineering theory of Robotics such as Denavit–Hartenberg parameters and Inverse Kinematics derived manually, the real-time simulation and physical control of the Interbotix Robotic Arm was brought to life using MATLAB and ROS after being measured by hand and designed with SolidWorks. You can see and interact with the 3D model of Interbotix Robotic arm on my website:[oriekaose.com/design-portfolio/#interbotix](https://oriekaose.com/design-portfolio/#interbotix) 
 
@@ -58,7 +58,7 @@ Both the Virtual and Physical Robots in the same position:
 
 ![image](https://github.com/user-attachments/assets/36f1309b-af13-475e-aaa2-1d89139839fe)
 
-### Version 1 of the Robotics 3D Visualisation and Control Application: [Version 1 Demo](https://www.youtube.com/watch?v=xS1hy-NXCwQ&t=542s&ab_channel=ZiyuanZhao)
+### Version 1 of the Real-Time Robotics 3D Digital Twin & Control Application: [Version 1 Demo](https://www.youtube.com/watch?v=xS1hy-NXCwQ&t=542s&ab_channel=ZiyuanZhao)
 ![image](https://github.com/user-attachments/assets/73b0841c-8664-4b16-be68-688a5bb1c3c3)
 
 
@@ -66,7 +66,7 @@ Both the Virtual and Physical Robots in the same position:
 It did not have the real-time simulation. Thus, incrementation was used to control joint positions based on user inputs. This made it quite slow. 
 Also, you could only use the sliders to control the robot. It is quite limited compared to the final version as it lacks most of the features.
 
-### Final Version of the Robotics 3D Visualisation and Control Application: [Final Version Demo](https://youtu.be/FHCdyu7V4PU?si=Fb0ue-RPLCEbxE3M)
+### Final Version of the Real-Time Robotics 3D Digital Twin & Control Application: [Final Version Demo](https://youtu.be/FHCdyu7V4PU?si=Fb0ue-RPLCEbxE3M)
 ![3DRobot](https://github.com/user-attachments/assets/c0de4073-acce-4efb-acbd-05a8495366c9)
 
 This has every aforementioned feature. 
